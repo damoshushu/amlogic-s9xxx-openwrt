@@ -26,6 +26,8 @@ on:
         default: "ophub/openwrt-aarch64:latest"
         type: choice
         options:
+          - kkzheng/openwrt-aarch64:latest
+          - kkzheng/immortalwrt-aarch64:latest
           - ophub/openwrt-aarch64:latest
 
 env:
